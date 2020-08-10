@@ -1,0 +1,3 @@
+h = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+property object是两类
+h height y 这些rect.属性都用同样的语法赋值，猜测是被设成了property()类，然后用object()指定了功能（function）
