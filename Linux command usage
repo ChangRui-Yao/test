@@ -1,0 +1,11 @@
+python3 -m pip install numpy  # 用命令开始从linux源上下载numpy模块
+>>>import numpy
+>>>print(numpy.__file__)
+返回的结果是 /home/fant/.local/lib/python3.6/site-packages/taichi/__init__.py   # 可见返回的是初始py文件
+cp -r /home/fant/.local/lib/python3.6/site-packages/numpy /mnt/f    # 把包从默认的隐藏文件夹复制到常用位置
+
+后来 查到了默认地址C:\Users\lenovo\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs；并添加了快速访问
+但是上一步中是反斜杠，还得多点几步，搞的还不如用linux command
+
+
+下一步学习网页，使用好github以及git
